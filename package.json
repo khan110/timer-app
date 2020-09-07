@@ -13,6 +13,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.3",
+    "serve": "^11.3.2",
     "typescript": "^3.7.5"
   },
   "scripts": {
@@ -25,7 +26,6 @@
     "format": "prettier --write src/**/*.{ts,tsx,scss,css,json}",
     "isready": "npm run format && npm run lint && npm run test:coverage && npm run build"
   },
-  
   "eslintConfig": {
     "extends": "react-app"
   },
